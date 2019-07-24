@@ -578,8 +578,8 @@ footer {
   }
 
   .left {
-    /* width: 80%; */
-    width: 400px;
+    width: 80%;
+    /* width: 300px; */
   }
 
   .about-box {
@@ -601,11 +601,5 @@ footer {
   }
   .text-box {
     width: 100%;
-  }
-}
-
-@media (max-width: 500px) {
-  .interests h5 {
-    color: #f9f9f9;
   }
 }
