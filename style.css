@@ -578,7 +578,8 @@ footer {
   }
 
   .left {
-    width: 80%;
+    /* width: 80%; */
+    width: 400px;
   }
 
   .about-box {
