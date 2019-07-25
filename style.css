@@ -557,8 +557,7 @@ footer {
     padding: 5%;
     position: unset;
     float: unset;
-    /* width: 80%; */
-    width: 300px;
+    width: 80%;
   }
 
   h1 {
@@ -579,8 +578,7 @@ footer {
   }
 
   .left {
-    /* width: 80%; */
-    width: 300px;
+    width: 100%;
   }
 
   .about-box {
@@ -598,10 +596,15 @@ footer {
   }
 
   .centre {
-    /* width: 80%; */
-    width: 300px;
+    width: 100%;
   }
   .text-box {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .interests {
+    padding-top: 200px;
   }
 }
