@@ -592,7 +592,7 @@ footer {
   }
 
   .interests {
-    padding-top: 20px;
+    padding-top: 500px;
   }
 
   .centre {
@@ -603,8 +603,8 @@ footer {
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .interests {
     padding-top: 500px;
   }
-}
+} */
