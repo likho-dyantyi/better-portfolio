@@ -602,3 +602,9 @@ footer {
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .interests {
+    padding-top: 240px;
+  }
+}
