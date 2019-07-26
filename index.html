@@ -129,11 +129,15 @@
 
         <script>
           grecaptcha.ready(function() {
-              grecaptcha.execute('6LdwoK8UAAAAAJer5vsCUH3gecdlGk-oDGaMq0ii', {action: 'homepage'}).then(function(token) {
-                console.log(token)
+            grecaptcha
+              .execute("6LdwoK8UAAAAAJer5vsCUH3gecdlGk-oDGaMq0ii", {
+                action: "homepage"
+              })
+              .then(function(token) {
+                console.log(token);
               });
           });
-          </script
+        </script>
 
         <ul class="social">
           <div class="link1">
