@@ -40,10 +40,8 @@ function getInputval(id) {
 }
 
 function recaptcha_callback() {
-  var submitbutton = document.querySelector("#submit");
-  submitbutton.removeAttribute("disabled");
-  submitbutton.getElementsByClassName.cursor = "pointer";
-  alert("hello");
+  let submit = document.getElementById("submit");
+  submit.classList.remove("invisible");
 }
 
 //save message to firebase
