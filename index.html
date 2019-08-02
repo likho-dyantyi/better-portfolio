@@ -78,7 +78,7 @@
       <section id="work">
         <h3>My work</h3>
         <div class="image-area centre">
-          <img src="img/5.jpg" alt="Embarcadero Rad Studios" />
+          <img src="/img/radStudio.png" alt="Embarcadero Rad Studios" />
         </div>
         <div class="text-box">
           <div class="text-box-content">
@@ -137,19 +137,6 @@
           <input class="button" type="submit" id="submit" disable />
         </form>
 
-        <!-- <script>
-          grecaptcha.ready(function() {
-            grecaptcha
-              .execute("6LdwoK8UAAAAAJer5vsCUH3gecdlGk-oDGaMq0ii", {
-                action: "homepage"
-              })
-              .then(function(token) {
-                // console.log(token);
-                document.getElementById("g-recaptcha-response").value = token;
-              });
-          });
-        </script> -->
-
         <ul class="social">
           <div class="link1">
             <li>
@@ -181,7 +168,9 @@
     </footer>
     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
-
+    <script>
+      function recaptcha_callback() {}
+    </script>
     <script src="main.js"></script>
   </body>
 </html>

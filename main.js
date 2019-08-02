@@ -43,6 +43,7 @@ function recaptcha_callback() {
   var submitbutton = document.querySelector("#submit");
   submitbutton.removeAttribute("disabled");
   submitbutton.getElementsByClassName.cursor = "pointer";
+  alert("hello");
 }
 
 //save message to firebase
