@@ -39,11 +39,6 @@ function getInputval(id) {
   return document.getElementById(id).value;
 }
 
-function recaptcha_callback() {
-  let submit = document.getElementById("submit");
-  submit.classList.remove("invisible");
-}
-
 //save message to firebase
 function saveMessage(name, email, message) {
   var newMessageref = messagesRef.push();
@@ -52,4 +47,9 @@ function saveMessage(name, email, message) {
     email: email,
     message: message
   });
+}
+
+function recaptcha_callback() {
+  let submit = document.getElementById("submit");
+  submit.classList.remove("invisible");
 }
