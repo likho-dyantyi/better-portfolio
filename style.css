@@ -444,6 +444,10 @@ h5 {
   background-color: rgb(133, 88, 38);
 }
 
+.invisible {
+  display: none;
+}
+
 .social {
   display: flex;
   justify-content: center;
@@ -622,8 +626,4 @@ footer {
   .interests {
     padding-top: 240px;
   }
-}
-
-.invisible {
-  display: none;
 }

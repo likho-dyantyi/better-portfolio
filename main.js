@@ -39,10 +39,14 @@ function getInputval(id) {
   return document.getElementById(id).value;
 }
 
-function recaptcha_callback() {
-  let submit = document.getElementById("submit");
-  submit.classList.remove("invisible");
-}
+// function recaptcha_callback() {
+//   // var submitbutton = document.querySelector("#submit");
+//   // submitbutton.removeAttribute("disabled");
+//   // submitbutton.getElementsByClassName.cursor = "pointer";
+//   // alert('hello');
+//   let submit = document.getElementById("submit");
+//   submit.classList.remove("invisible");
+// }
 
 //save message to firebase
 function saveMessage(name, email, message) {

@@ -169,7 +169,10 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
     <script>
-      function recaptcha_callback() {}
+      function recaptcha_callback() {
+        let submit = document.getElementById("submit");
+        submit.classList.remove("invisible");
+      }
     </script>
     <script src="main.js"></script>
   </body>
