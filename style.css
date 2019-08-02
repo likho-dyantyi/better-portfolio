@@ -623,3 +623,7 @@ footer {
     padding-top: 240px;
   }
 }
+
+.invisible {
+  display: none;
+}
