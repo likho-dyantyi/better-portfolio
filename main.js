@@ -39,6 +39,12 @@ function getInputval(id) {
   return document.getElementById(id).value;
 }
 
+function recaptcha_callback() {
+  var submitbutton = document.querySelector("#submit");
+  submitbutton.removeAttribute("disabled");
+  submitbutton.getElementsByClassName.cursor = "pointer";
+}
+
 //save message to firebase
 function saveMessage(name, email, message) {
   var newMessageref = messagesRef.push();
@@ -47,10 +53,4 @@ function saveMessage(name, email, message) {
     email: email,
     message: message
   });
-}
-
-function recaptcha_callback() {
-  var submitbutton = document.querySelector("#submit");
-  submitbutton.removeAttribute("disabled");
-  submitbutton.getElementsByClassName.cursor = "pointer";
 }
