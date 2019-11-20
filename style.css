@@ -353,6 +353,15 @@ h5 {
   font-size: 1.2em;
 }
 
+.GameDev {
+  line-height: 1.8;
+  color: rgb(133, 88, 38);
+  letter-spacing: 0.03em;
+  font-size: 2em;
+  padding-bottom: 7em;
+  align-content: center;
+}
+
 #contact {
   width: 100%;
   background-color: #f9f9f9;
@@ -485,6 +494,10 @@ h6 {
 }
 
 .link2 {
+  flex-basis: 20%;
+}
+
+.link3 {
   flex-basis: 20%;
 }
 
